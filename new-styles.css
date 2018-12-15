@@ -1,0 +1,113 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.big-font {
+	
+	font-family: 'Nunito', sans-serif;
+	font-size: 48px;
+	
+	font-weight: bold;
+}
+
+.small-font {
+	
+	font-family: 'Nunito', sans-serif;
+	font-size: 20px;
+	
+	font-weight: lighter;
+		
+}
+
+.smallest-font {
+	font-family: 'Nunito', sans-serif;
+	font-size: 12px;
+	
+	font-weight: bold;
+		
+}
+
+.grey{
+	color: #B9B9B9;
+}
+
+a {
+	
+	text-decoration: none !important;
+}
+
+.button{
+
+	background-color: transparent;
+	border-radius: 30px;
+	width: 176px;
+	height: 45px;
+	
+	display: block;
+	margin: 0 auto;
+
+	transition: all 1s;
+
+}
+
+.flex-container{
+	
+	height: 100%;
+	width: 100%;
+	min-height: 100vh;
+
+} 
+
+.flex-container{
+	
+	display: flex;
+	flex-wrap: nowrap; 
+	 
+}
+
+
+.box1{
+	
+	flex: 1;
+	
+	color: white;
+	
+	position: relative;
+	padding-top:3%;
+	padding-left: 3%;
+	
+	background:transparent url("images/Group 8345.png") no-repeat center center /cover;
+	
+
+}
+.box2{
+	
+	color:#000000;
+	flex: 0.9;
+	
+
+	padding-left: 8%;
+	padding-right: 10%;
+	padding-top:3%;
+	padding-bottom: 2%;
+	
+	
+}
+
+.pass{
+	
+	display: inline;
+}
+
+#get-started{
+	
+	color: white;
+	
+}
+
+@media only screen and (max-width:500px){
+	
+	.flex-container{
+		flex-direction: column;
+	}
+}

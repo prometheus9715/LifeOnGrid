@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* CSS Document */
+
+.big-font {
+	
+	font-family: 'Nunito', sans-serif;
+	font-size: 48px;
+	
+	font-weight: bold;
+}
+
+.small-font {
+	
+	font-family: 'Nunito', sans-serif;
+	font-size: 20px;
+	
+	font-weight: lighter;
+		
+}
+
+
+
+.smallest-font {
+	font-family: 'Nunito', sans-serif;
+	font-size: 12px;
+	
+	font-weight: bold;
+		
+}
+
+.grey{
+	color: #B9B9B9;
+}
+
+.flex-container{
+	
+	height: 100%;
+	width: 100%;
+	min-height: 100vh;
+	
+	display: flex;
+	flex-wrap: nowrap; 
+
+	 
+}
+
+.box1{
+	flex: 1;
+}
+
+.box2{
+	
+	flex: 1;
+	background-color: #F4F9FC;
+}
+
+#desc{
+	position: relative;
+	padding-top: 10%;
+	
+}
