@@ -16,7 +16,7 @@ This Web App is used to exactly do this. It can record all your daily activities
 analyse your day graphically. The goal is to help people use their tomorrows more productively
 by constantly analysing their yesterdays.
 
-This project is based on an article called "100 blocks a day" on WaitButWhy.
+This project is based on an article called "100 blocks a day" by Tim Urban.
 link: 
 https://waitbutwhy.com/2016/10/100-blocks-day.html
 
